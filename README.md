@@ -1,3 +1,4 @@
-# Preview
+- ## 🌟 Preview  
 
-- [click](https://sowndhar-movie-hub.netlify.app/)
+✨ Check it out here → **[Movie-Hub](https://sowndhar-movie-hub.netlify.app/)**  
+
