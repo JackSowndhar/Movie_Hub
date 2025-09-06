@@ -1,0 +1,85 @@
+.wishlist-container {
+  font-family: "Poppins", sans-serif;
+  background: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.wishlist-container h2 {
+  text-align: center;
+  color: #adadad;
+}
+
+.wishlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 25px;
+}
+
+.wishlist-card {
+  background: #1c1c1c;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  cursor: pointer;
+}
+
+.wishlist-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+}
+
+.poster-wrapper {
+  position: relative;
+}
+
+.poster-wrapper img {
+  width: 100%;
+  display: block;
+  border-bottom: 2px solid #222;
+}
+
+.duration {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.movie-title {
+  font-size: 1rem;
+  margin: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin: 0 10px 12px;
+}
+
+.remove-button {
+  background: #e21a1a;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  margin: 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.remove-button:hover {
+  background: #c70303b4;
+  transform: scale(1.02);
+}
